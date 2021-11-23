@@ -237,7 +237,7 @@ main > .container {
     display: flex;
 }
 
-a.block {
+a.block, a.sub-block {
     color: #292c2d;
     text-decoration: none;
 }
@@ -309,6 +309,7 @@ main ul li {
 }
 
 .table .thead-dark th:first-child,
+.table tbody tr td:first-child[rowspan="4"],
 .table tbody tr td:first-child[rowspan="3"],
 .table tbody tr td:first-child[rowspan="2"],
 .table tbody tr td:first-child[rowspan="1"] {
@@ -419,17 +420,25 @@ main ul li {
 /* pipeline details */
 
 .pipeline-details h1 .activate {
-    height: 24px;
+    height: 35px;
     vertical-align: top;
+    margin-right: 5px;
     /*margin-top: 6px;
     margin-left: 15px;*/
 }
 
 .pipeline-details h1 .energize {
-    height: 24px;
+    height: 33px;
+    margin-right: 5px;
     vertical-align: top;
     /*margin-top: 6px;
     margin-left: 15px;*/
+}
+
+.pipeline-details h1 .riseup {
+    height: 31px;
+    vertical-align: top;
+    margin-right: 6px;
 }
 
 .pl-20 {
@@ -451,6 +460,10 @@ main ul li {
     text-transform: uppercase;
     padding: 0.3rem 0.8rem;
     color: #fff;
+}
+
+.badge strong {
+    color: #002a4c;
 }
 
 .pipeline-details .block {
@@ -514,6 +527,33 @@ ul li ul li:before {
 
 .pt-8 {
     padding-top: 8rem;
+}
+
+.btn-outline-primary {
+    border: 3px solid #45a5d3;
+    border-radius: 6px;
+    color: #45a5d3;
+    font-size: 0.7rem;
+    font-weight: 600;
+    line-height: 1rem;
+    padding: 6px 8px;
+    background: transparent;
+}
+
+.btn-outline-primary:hover {
+    color: #007bff;
+    background-color: #a8d8ed;
+    border-color: #007bff;
+}
+
+.btn-outline-primary img {
+    height: 8px;
+    margin-left: 5px;
+}
+
+.btn-outline-primary img.arrow-left{
+    margin-left: 0px;
+    margin-right: 5px;
 }
 
 /* responsive */
@@ -595,7 +635,8 @@ footer .text-right {
     text-align: left!important;
 }
 
-.table .thead-dark th:first-child, 
+.table .thead-dark th:first-child,
+.table tbody tr td:first-child[rowspan="4"],
 .table tbody tr td:first-child[rowspan="3"], 
 .table tbody tr td:first-child[rowspan="2"], 
 .table tbody tr td:first-child[rowspan="1"] {
