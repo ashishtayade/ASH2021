@@ -557,9 +557,9 @@ ul li ul li:before {
 }
 
 /* responsive */
-/*.container {
-    max-width: 90%;
-}*/
+.container {
+    max-width: 85%;
+}
 
 @media (max-width: 1199px) {
 
