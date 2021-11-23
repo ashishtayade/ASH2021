@@ -557,6 +557,10 @@ ul li ul li:before {
 }
 
 /* responsive */
+.container {
+    max-width: 96%;
+}
+
 @media (max-width: 1199px) {
 
 body, main ul li {
