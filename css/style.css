@@ -556,6 +556,20 @@ ul li ul li:before {
     margin-right: 5px;
 }
 
+.screensaverDiv {
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background: #fff;
+    text-align: center;
+}
+
+.screensaverDiv .screensaverImg {
+    width: 80%;
+}
+
 /* responsive */
 .container {
     max-width: 85%;
