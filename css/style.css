@@ -168,6 +168,7 @@ body {
 	font-size: 1.2rem;
 	color: #292c2d;
     font-weight: 400;
+    padding-bottom: 65px;
 }
 
 .container {
@@ -188,6 +189,12 @@ h2 {
 .navbar {
 	background:	#040b25 !important;
 	padding: .6rem 1rem;
+
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
 }
 .navbar ul.navbar-nav {
     -webkit-box-orient: horizontal;
