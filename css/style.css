@@ -562,12 +562,17 @@ ul li ul li:before {
     top: 0;
     left: 0;
     width: 100%;
-    background: #fff;
+    height: 100%;
+    background: #eff3fd;
     text-align: center;
 }
 
 .screensaverDiv .screensaverImg {
     width: 80%;
+}
+
+.w-50 {
+    width: 60%!important;
 }
 
 /* responsive */
