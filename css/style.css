@@ -815,6 +815,10 @@ html, body {
     justify-content: center!important;
 }
 
+.screensaverDiv.d-none {
+    display: none!important;
+}
+
 .screensaverDiv .screensaverImg {
     width: auto;
 }
