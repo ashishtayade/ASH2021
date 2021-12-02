@@ -162,6 +162,8 @@
 }
 
 /* css */
+
+@media (min-width: 1919px) {
 html, body {
     height: 100%;
 }
@@ -174,6 +176,7 @@ html, body {
     -ms-flex-align: center!important;
     align-items: center!important;
     height: 100%;
+}
 }
 
 body {
