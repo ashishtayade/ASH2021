@@ -162,6 +162,20 @@
 }
 
 /* css */
+html, body {
+    height: 100%;
+}
+
+.pipeline-details {
+    display: -webkit-box!important;
+    display: -ms-flexbox!important;
+    display: flex!important;
+    -webkit-box-align: center!important;
+    -ms-flex-align: center!important;
+    align-items: center!important;
+    height: 100%;
+}
+
 body {
     font-family: 'Montserrat', sans-serif;
 	background: #eff3fd;
