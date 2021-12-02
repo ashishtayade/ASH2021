@@ -275,7 +275,7 @@ a.block, a.sub-block {
 main ul li {
 	font-size: 1.2rem;
     color: #292c2d;
-    font-weight: 400;
+    font-weight: 500;
 }
 
 /* Pipeline css */
@@ -461,11 +461,17 @@ main ul li {
 }
 
 .badge {
-    font-size: 0.7rem;
+    /*font-size: 0.7rem;
     font-weight: 700;
     line-height: 1rem;
     text-transform: uppercase;
     padding: 0.3rem 0.8rem;
+    color: #fff;*/
+    font-size: 0.75rem;
+    font-weight: 700;
+    line-height: 1.2rem;
+    text-transform: uppercase;
+    padding: 0.4rem 0.8rem;
     color: #fff;
 }
 
