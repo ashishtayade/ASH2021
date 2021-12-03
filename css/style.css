@@ -277,7 +277,8 @@ a.block, a.sub-block {
 
 main ul li {
 	font-size: 1.2rem;
-    color: #292c2d;
+    /*color: #292c2d;*/
+    color: #4a485d;
     font-weight: 500;
 }
 
