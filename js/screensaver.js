@@ -9,7 +9,10 @@
             currSeconds = 0;
             /* Set a new interval */
             timer = setInterval(startIdleTimer, 1000);
-            $('.screensaverDiv').addClass('d-none');
+            if($('.screensaverDiv').hasClass('active')) {
+                window.location.href = "pkr-activator-pipeline.html";
+            }
+            $('.screensaverDiv').addClass('d-none').removeClass('active');
         }
   
         // Define the events that
@@ -29,8 +32,8 @@
             //document.querySelector(".secs").textContent = currSeconds;
             /* Display the timer text */
             //document.querySelector(".timertext").style.display = 'block';
-            if(currSeconds == 120) {
-              $('.screensaverDiv').removeClass('d-none');
+            if(currSeconds == 5) {
+              $('.screensaverDiv').removeClass('d-none').addClass('active');
             }
         }
 
