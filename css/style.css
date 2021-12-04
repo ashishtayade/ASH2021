@@ -162,9 +162,6 @@
 }
 
 /* css */
-
-
-
 body {
     font-family: 'Montserrat', sans-serif;
 	background: #eff3fd;
@@ -187,6 +184,11 @@ h1 {
 h2 {
     font-size: 1.4rem;
     font-weight: 700;
+}
+
+img {
+    image-rendering: -webkit-optimize-contrast;
+    image-rendering: crisp-edges;
 }
 
 .navbar {
@@ -585,7 +587,8 @@ ul li ul li:before {
 }
 
 .screensaverDiv .screensaverImg {
-    width: 80%;
+    width: 100%;
+    height: auto;
 }
 
 .w-50 {
@@ -594,7 +597,8 @@ ul li ul li:before {
 
 /* responsive */
 .container {
-    max-width: 85%;
+    /*max-width: 85%;*/
+    max-width: 96%;
 }
 
 @media (max-width: 1199px) {
@@ -822,6 +826,7 @@ html, body {
 
 .screensaverDiv .screensaverImg {
     width: auto;
+    height: 100%;
 }
 
 }
