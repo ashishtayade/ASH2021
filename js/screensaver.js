@@ -32,7 +32,7 @@
             //document.querySelector(".secs").textContent = currSeconds;
             /* Display the timer text */
             //document.querySelector(".timertext").style.display = 'block';
-            if(currSeconds == 5) {
+            if(currSeconds == 120) {
               $('.screensaverDiv').removeClass('d-none').addClass('active');
             }
         }
