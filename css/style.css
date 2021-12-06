@@ -796,7 +796,7 @@ footer .text-right {
 
 }
 
-@media (min-width: 1919px) {
+@media (min-width: 1900px) {
 html, body {
     height: 100%;
 }
@@ -830,7 +830,7 @@ html, body {
 
 .screensaverDiv .screensaverImg {
     width: auto;
-    height: 100%;
+    height: 94%;
 }
 
 }
